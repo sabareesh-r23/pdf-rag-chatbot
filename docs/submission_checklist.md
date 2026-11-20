@@ -32,11 +32,12 @@ Status as of 2026-11-20 (Version 1.3). Every item was done and verified in this 
 - [x] Slide 8 shows a screenshot of the final app (rerank scores in the evidence panel).
 
 ## 4. Demo video
-- [x] `submission/RAG_PDF_Chatbot_Demo.mp4` (5:20, 1440×900, captioned screen recording of the final
-      app): upload and index 4 PDFs; factual, multi-part, partially answerable, unanswerable and
-      false-premise questions; evidence panel with rerank scores; active-corpus filter; settings; a
-      two-passage answer; the NIST document (D1, which failed before the fixes, now answered; fines declined). Every scene checked frame by frame against the answers.
-- [x] Voice-over script timed to this video: `docs/demo_voiceover.md`.
+- [x] `submission/RAG_PDF_Chatbot_Demo.mp4` (13:39, 1280×720, narrated): problem, users and tools on
+      slides; live demo of upload and indexing, a rejected non-PDF, factual, multi-part, partially
+      answerable, unanswerable and false-premise questions, the evidence panel, the settings, a
+      two-passage answer and the NIST document (D1, which failed before the fixes, now answered; fines
+      declined); then evaluation, improvements, limitations and conclusion on slides. The demo questions
+      were re-run through the final code on 2026-11-21 and gave the answers shown.
 
 ## 5. Dataset and packaging
 - [x] Corpus A (61 pp.), B (152 pp.), C (32 pp.) in `data/`; `data/download_datasets.sh` re-downloads them.
